@@ -14,6 +14,7 @@ Guia de referência para projetar, construir e manter APIs com FastAPI seguindo 
 8. [Testes](08-testes.md)
 9. [Observabilidade e Logging](09-observabilidade-logging.md)
 10. [Versionamento e Deploy](10-deploy-versionamento.md)
+11. [ORM e Banco de Dados](11-orm-banco-dados.md)
 
 ## Como usar este manual
 
