@@ -52,10 +52,10 @@ Execute migrações em um *init container* ou job separado antes do rollout da n
 ## CI/CD — checklist mínimo
 
 1. Lint + type check (`ruff`, `mypy`).
-2. Testes (capítulo 8) com cobertura mínima definida.
+2. Testes (capítulo 9) com cobertura mínima definida.
 3. Build da imagem com tag imutável (commit SHA, não `latest`).
 4. Migração de banco.
-5. Deploy com estratégia de rollout gradual (rolling update, canary ou blue-green) e health checks (capítulo 9) como gate.
+5. Deploy com estratégia de rollout gradual (rolling update, canary ou blue-green) e health checks (capítulo 10) como gate.
 
 ## Graceful shutdown
 

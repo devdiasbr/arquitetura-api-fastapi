@@ -59,11 +59,11 @@ Use `slowapi` (baseado em `limits`) ou um API Gateway/proxy reverso (nginx, Trae
 - **Validação de entrada** (capítulo 3) evita injeção e payloads malformados.
 - **`TrustedHostMiddleware`** para restringir hosts aceitos.
 - **Headers de segurança** (`X-Content-Type-Options`, `X-Frame-Options`, `Strict-Transport-Security`) via middleware ou proxy.
-- **Não exponha stack trace** em produção — capítulo 6 trata tratamento de erros.
+- **Não exponha stack trace** em produção — capítulo 7 trata tratamento de erros.
 - **Princípio do menor privilégio** em escopos/permissões de usuário e credenciais de banco.
 
 ## Armadilhas comuns
 
 - Guardar JWT secret igual entre ambientes (dev/staging/prod).
 - Validar permissão só no frontend, sem reforçar no backend.
-- Logar senha, token ou dados de cartão em texto puro (ver capítulo 9 sobre logging).
+- Logar senha, token ou dados de cartão em texto puro (ver capítulo 10 sobre logging).

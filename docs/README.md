@@ -7,14 +7,14 @@ Guia de referência para projetar, construir e manter APIs com FastAPI seguindo 
 1. [Estrutura de Projeto](01-estrutura-projeto.md)
 2. [Design de API REST](02-design-api-rest.md)
 3. [Validação e Modelos (Pydantic)](03-validacao-modelos.md)
-4. [Injeção de Dependências](04-injecao-dependencias.md)
-5. [Autenticação e Segurança](05-autenticacao-seguranca.md)
-6. [Tratamento de Erros](06-tratamento-erros.md)
-7. [Assincronismo e Performance](07-async-performance.md)
-8. [Testes](08-testes.md)
-9. [Observabilidade e Logging](09-observabilidade-logging.md)
-10. [Versionamento e Deploy](10-deploy-versionamento.md)
-11. [ORM e Banco de Dados](11-orm-banco-dados.md)
+4. [ORM e Banco de Dados](04-orm-banco-dados.md)
+5. [Injeção de Dependências](05-injecao-dependencias.md)
+6. [Autenticação e Segurança](06-autenticacao-seguranca.md)
+7. [Tratamento de Erros](07-tratamento-erros.md)
+8. [Assincronismo e Performance](08-async-performance.md)
+9. [Testes](09-testes.md)
+10. [Observabilidade e Logging](10-observabilidade-logging.md)
+11. [Versionamento e Deploy](11-deploy-versionamento.md)
 
 ## Como usar este manual
 

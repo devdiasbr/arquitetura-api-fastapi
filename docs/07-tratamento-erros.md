@@ -62,7 +62,7 @@ Padronize um envelope único, por exemplo:
 }
 ```
 
-`request_id` correlaciona o erro com logs/tracing (capítulo 9).
+`request_id` correlaciona o erro com logs/tracing (capítulo 10).
 
 ## `HTTPException` para casos simples
 

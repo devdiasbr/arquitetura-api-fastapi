@@ -103,7 +103,7 @@ async def transfer_balance(self, from_id: int, to_id: int, amount: Decimal) -> N
 
 ## Migrações (Alembic)
 
-Schema do banco é versionado junto do código — nunca alterar tabela manualmente em produção. Detalhe de pipeline de migração no [capítulo 10](10-deploy-versionamento.md).
+Schema do banco é versionado junto do código — nunca alterar tabela manualmente em produção. Detalhe de pipeline de migração no [capítulo 11](11-deploy-versionamento.md).
 
 ```bash
 alembic revision --autogenerate -m "add status column to orders"

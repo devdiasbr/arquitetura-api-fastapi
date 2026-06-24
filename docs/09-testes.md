@@ -65,7 +65,7 @@ def client(db_session):
 
 ## Testando regras de negócio isoladamente
 
-Serviços bem desenhados (capítulo 4) permitem testar regra de negócio sem subir a API:
+Serviços bem desenhados (capítulo 5) permitem testar regra de negócio sem subir a API:
 
 ```python
 async def test_order_service_rejects_zero_quantity():
